@@ -1,0 +1,14 @@
+name = "MagicTensors"
+uuid = "ec7fc9ff-011e-4a34-a9a6-2d5e1a758b79"
+authors = ["Gerald E. Fux"]
+version = "0.1.0"
+
+[compat]
+julia = "1.10.10"
+
+[extras]
+JET = "c3a54625-cd67-489e-a8e7-0a5a0ff4e31b"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["JET", "Test"]
