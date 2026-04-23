@@ -16,7 +16,7 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 [compat]
 ITensorMPS = "0.3.45"
 ITensors = "0.9.25"
-LinearAlgebra = "1.11.0"
+LinearAlgebra = "1.10.0"
 Printf = "1.11.0"
 QuantumClifford = "0.10.1"
 QuantumOptics = "1.2.4"
