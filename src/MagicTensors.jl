@@ -4,10 +4,12 @@ using QuantumClifford
 using ITensorMPS
 
 include("abstract_definitions.jl")
-""" The magic number. """
-const MAGIC = 42
+include("quantum_clifford_util.jl")
+include("quantum_clifford_qubit.jl")
 
 # -- export types --
+export
+    QubitPauliSum
 
 # -- export functions --
 export

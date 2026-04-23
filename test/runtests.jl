@@ -10,4 +10,8 @@ using ITensorMPS
             JET.test_package(MagicTensors; target_defined_modules=true)
         end
     end
+
+    # Include specific test files
+    include("test_quantum_clifford_qubit.jl")
+    include("test_quantum_clifford_util.jl")
 end
