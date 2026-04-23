@@ -3,7 +3,25 @@ uuid = "ec7fc9ff-011e-4a34-a9a6-2d5e1a758b79"
 authors = ["Gerald E. Fux"]
 version = "0.1.0"
 
+[deps]
+ITensorMPS = "0d1a4710-d33b-49a5-8f18-73bdf49b47e2"
+ITensors = "9136182c-28ba-11e9-034c-db9fb085ebd5"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+QuantumClifford = "0525e862-1e90-11e9-3e4d-1b39d7109de1"
+QuantumOptics = "6e0679c1-51ea-5a7c-ac74-d61b76210b0c"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
 [compat]
+ITensorMPS = "0.3.45"
+ITensors = "0.9.25"
+LinearAlgebra = "1.11.0"
+Printf = "1.11.0"
+QuantumClifford = "0.10.1"
+QuantumOptics = "1.2.4"
+Random = "1.11.0"
+StaticArrays = "1.9.18"
 julia = "1.10.10"
 
 [extras]
